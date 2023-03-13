@@ -1,0 +1,32 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16 [label="onion::ComponentID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_component_i_d.html",tooltip="Defines the data used to identify a component."];
+  Node16 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="onion::SelectOperator\l\< objective_value_t,\l objective_function_result\l_t, compare \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_select_operator.html",tooltip="Defines the interface of SelectOperator components."];
+  Node14 [label="onion::IdentifiedComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_identified_component.html",tooltip="Onion components derive from this class in order to add identification functionality."];
+  Node14 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="onion::CreateOperator\l\< path_t\< num_cities \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_create_operator.html",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="onion::cops::tsp::array\l::CreateRandom\< num_cities \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1cops_1_1tsp_1_1array_1_1_create_random.html",tooltip=" "];
+  Node14 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="onion::CreateOperator\l\< solution_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_create_operator.html",tooltip="Defines the interface of the Create Operator."];
+  Node14 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="onion::ObjectiveFunction\l\< solution_t, objective\l_value_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_objective_function.html",tooltip="Defines the interface of ObjectiveFunction components."];
+  Node14 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="onion::PerturbationOperator\l\< solution_t, perturbation\l_result_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_perturbation_operator.html",tooltip="Defines the interface of the Perturbation Operator."];
+  Node14 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="onion::PerturbationParameter\lOperator\< solution_t, perturbation\l_parameter_t \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_perturbation_parameter_operator.html",tooltip="Defines the interface of the PerturbationParameter Operator."];
+  Node0 [label="onion::NonCopyable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_non_copyable.html",tooltip="Class to make other classes non-copyable."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="onion::RandomEngineProxy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_random_engine_proxy.html",tooltip="Creates and control the access to the global RandonEngine object."];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
