@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['problem_173',['problem',['../classonion_1_1_component_i_d.html#ae7613080156332740514629326b3d66e',1,'onion::ComponentID']]]
+  ['problem_173',['problem',['../classonion_1_1_component_data.html#a7c4210533e95215d0b5e40ad064a7d72',1,'onion::ComponentData']]]
 ];

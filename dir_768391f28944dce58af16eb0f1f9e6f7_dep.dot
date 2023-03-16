@@ -6,8 +6,7 @@ digraph "/Users/ladeira/Documents/src/onion" {
     graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_768391f28944dce58af16eb0f1f9e6f7.html"];
     dir_768391f28944dce58af16eb0f1f9e6f7 [shape=plaintext label="onion"];
     dir_85956902490f597b4eb5733f3dffc513 [shape=box label="cops" color="red" fillcolor="white" style="filled" URL="dir_85956902490f597b4eb5733f3dffc513.html"];
-    dir_bda57db7ac88f071ac45cf1ed4fb631a [shape=box label="doc" color="red" fillcolor="white" style="filled" URL="dir_bda57db7ac88f071ac45cf1ed4fb631a.html"];
     dir_aa03dd98a0e33e4b253be7365e0e36b3 [shape=box label="onion" color="black" fillcolor="white" style="filled" URL="dir_aa03dd98a0e33e4b253be7365e0e36b3.html"];
   }
-  dir_85956902490f597b4eb5733f3dffc513->dir_aa03dd98a0e33e4b253be7365e0e36b3 [headlabel="1", labeldistance=1.5 headhref="dir_000001_000009.html"];
+  dir_85956902490f597b4eb5733f3dffc513->dir_aa03dd98a0e33e4b253be7365e0e36b3 [headlabel="1", labeldistance=1.5 headhref="dir_000001_000007.html"];
 }

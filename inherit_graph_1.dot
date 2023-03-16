@@ -4,5 +4,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="onion::make_void\< Ts \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structonion_1_1make__void.html",tooltip=" "];
+  Node0 [label="onion::ComponentData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classonion_1_1_component_data.html",tooltip="Class that contains the data used to identify a component."];
 }

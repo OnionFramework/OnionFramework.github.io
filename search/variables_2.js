@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name_172',['name',['../classonion_1_1_component_i_d.html#a47473c607bd280f8abaf4daf9862c8d2',1,'onion::ComponentID']]]
+  ['name_172',['name',['../classonion_1_1_component_data.html#a2af0881299ec5d59d85745d27bb441c8',1,'onion::ComponentData']]]
 ];

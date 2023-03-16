@@ -1,23 +1,21 @@
-digraph "/Users/ladeira/Documents/src/onion/onion/NonCopyable.hpp"
+digraph "/Users/ladeira/Documents/src/onion/NonCopyable.hpp"
 {
  // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="/Users/ladeira/Documents\l/src/onion/onion/NonCopyable.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Contains the declaration of the NonCopyable class."];
+  Node1 [label="/Users/ladeira/Documents\l/src/onion/NonCopyable.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Contains the declaration of the NonCopyable class."];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="/Users/ladeira/Documents\l/src/onion/onion/CreateOperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_create_operator_8hpp.html",tooltip="This header defines the interface of the Create component."];
-  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="/Users/ladeira/Documents\l/src/onion/cops/tsp/array\l/create_random.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$create__random_8hpp.html",tooltip=" "];
+  Node2 [label="/Users/ladeira/Documents\l/src/onion/CreateOperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_create_operator_8hpp.html",tooltip="This header contains the definition of the CreateOperator component."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/Users/ladeira/Documents\l/src/onion/ObjectiveFunction.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_objective_function_8hpp.html",tooltip="This header introduces the ObjectiveFunction class interface."];
   Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="/Users/ladeira/Documents\l/src/onion/onion/ObjectiveFunction.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_objective_function_8hpp.html",tooltip="This header introduces the ObjectiveFunction class interface."];
+  Node4 [label="/Users/ladeira/Documents\l/src/onion/ParameterOperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_parameter_operator_8hpp.html",tooltip="This header has the definition of the CreateOperator component."];
   Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node5 [label="/Users/ladeira/Documents\l/src/onion/onion/PerturbationOperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_perturbation_operator_8hpp.html",tooltip="This header defines the PerturbationOperator ADT."];
+  Node5 [label="/Users/ladeira/Documents\l/src/onion/PerturbationOperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_perturbation_operator_8hpp.html",tooltip="This header has the definition the PerturbationOperator Abstract Data type."];
   Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="/Users/ladeira/Documents\l/src/onion/onion/PerturbationParameter\lOperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_perturbation_parameter_operator_8hpp.html",tooltip="This header defines the PerturbationParameterOperator ADT."];
-  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="/Users/ladeira/Documents\l/src/onion/onion/Random.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_random_8hpp.html",tooltip="This header introduces the random number generation (RNG) facilities of the Onion Framework."];
-  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="/Users/ladeira/Documents\l/src/onion/onion/Random.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_random_8cpp.html",tooltip="Implementation of the global RandomEngine object."];
-  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node9 [label="/Users/ladeira/Documents\l/src/onion/onion/SelectOperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_select_operator_8hpp.html",tooltip="This header introduces the SelectOperator class interface."];
+  Node6 [label="/Users/ladeira/Documents\l/src/onion/Random.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_random_8hpp.html",tooltip="This header introduces the random number generation (RNG) facilities of the Onion Framework."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/Users/ladeira/Documents\l/src/onion/Random.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_random_8cpp.html",tooltip="Implementation of the global RandomEngine object."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/Users/ladeira/Documents\l/src/onion/SelectOperator.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_select_operator_8hpp.html",tooltip="This header introduces the SelectOperator class interface."];
 }

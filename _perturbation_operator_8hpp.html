@@ -16,7 +16,7 @@
 <meta name="twitter:title" content="Doxygen Awesome" />
 <meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
 <!-- END twitter metadata -->
-<title>Onion Framework: /Users/ladeira/Documents/src/onion/onion/PerturbationOperator.hpp File Reference</title>
+<title>Onion Framework: /Users/ladeira/Documents/src/onion/PerturbationOperator.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" type="image/png" href="onion_ico.png"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -135,10 +135,10 @@ $(document).ready(function(){initNavTree('_perturbation_operator_8hpp.html','');
 </div><!--header-->
 <div class="contents">
 
-<p>This header defines the PerturbationOperator ADT.  
+<p>This header has the definition the PerturbationOperator Abstract Data type.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="_non_copyable_8hpp_source.html">NonCopyable.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_identified_component_8hpp_source.html">IdentifiedComponent.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_component_i_d_8hpp_source.html">ComponentID.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for PerturbationOperator.hpp:</div>
 <div class="dyncontent">
@@ -151,7 +151,7 @@ Include dependency graph for PerturbationOperator.hpp:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_perturbation_operator.html">onion::PerturbationOperator&lt; solution_t, perturbation_result_t &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the interface of the Perturbation Operator.  <a href="classonion_1_1_perturbation_operator.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract Data Type that defines the Perturbation Operator.  <a href="classonion_1_1_perturbation_operator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -160,25 +160,7 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This header defines the PerturbationOperator ADT. </p>
-<p><b>Background</b></p>
-<p>Consider a solution <b>S</b> to a problem. A perturbation operator <b>P</b> is defined as an operation that takes some <b>S</b> as a parameter and produces one or more solutions as a result:</p>
-<p><b>P(S) = {S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>n</sub>}, n &gt;= 1 </b></p>
-<p>Each new solution {S<sub>1</sub>,...,S<sub>n</sub>} ∈ P(S*) is the result of a transformation applied to S.</p>
-<p>Differences between S<sub>1</sub> ... S<sub>n</sub> are due only to a parameter passed to the transformation. Thus, we can represent P as the result of a list comprehension:</p>
-<p><b>P(S) = { T(S,P<sub>i</sub>) | P<sub>i</sub> &isin; {P<sub>1</sub>,P<sub>2</sub>,...,P<sub>n</sub>} }</b></p>
-<p>Because solutions must be valid we can write:</p>
-<p><b>P(S) = { T(S,P<sub>i</sub>) | P<sub>i</sub> &isin; {P<sub>1</sub>,P<sub>2</sub>,...,P<sub>n</sub>}, IsValid( P<sub>i</sub> ) }</b></p>
-<p>Where <b>IsValid</b> is a problem-specific validation function.</p>
-<p><b>In summary</b></p>
-<ul>
-<li>Perturbation is an operation that produces new candidate solutions to a problem.</li>
-<li>The solutions produced are both <b>complete</b> and <b>valid</b>.</li>
-<li>Perturbation produces new solutions by creating small variations in the known solution.</li>
-<li>To create new solutions it uses a fixed procedure called <em>Transformation</em>, **T(S,P<sub>i</sub>)**</li>
-<li><b>T(S,P<sub>i</sub>)</b> is parameterized by some parameter P<sub>i</sub>. The different solutions produced from the same initial solution are result of the different values of P<sub>i</sub> passed to <b>T</b> <em><b>only</b></em>.</li>
-</ul>
-<p><b>Note:</b> these remarks clearly define the functional aspects of Perturbation operator in the Onion Franmework context. It is also used to define its sister concept: the PerturbationParameter operator.</p>
+<div class="textblock"><p>This header has the definition the PerturbationOperator Abstract Data type. </p>
 <hr  />
  <dl class="section copyright"><dt>Copyright</dt><dd>2022 André Ladeira / Onion Framework. </dd></dl>
 </div></div><!-- contents -->
@@ -186,7 +168,7 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_768391f28944dce58af16eb0f1f9e6f7.html">onion</a></li><li class="navelem"><a class="el" href="dir_aa03dd98a0e33e4b253be7365e0e36b3.html">onion</a></li><li class="navelem"><a class="el" href="_perturbation_operator_8hpp.html">PerturbationOperator.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_768391f28944dce58af16eb0f1f9e6f7.html">onion</a></li><li class="navelem"><a class="el" href="_perturbation_operator_8hpp.html">PerturbationOperator.hpp</a></li>
     <li class="footer">Generated by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>

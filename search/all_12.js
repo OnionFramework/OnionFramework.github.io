@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['_7ecreateoperator_76',['~CreateOperator',['../classonion_1_1_create_operator.html#acb24f20eb126d3320227308225665ee2',1,'onion::CreateOperator']]],
-  ['_7eidentifiedcomponent_77',['~IdentifiedComponent',['../classonion_1_1_identified_component.html#aef11d1ea7439a6d56f9a65167ef864d2',1,'onion::IdentifiedComponent']]],
+  ['_7ecomponentid_76',['~ComponentID',['../classonion_1_1_component_i_d.html#a64e3ba3b80b5d07284b5f895501eda91',1,'onion::ComponentID']]],
+  ['_7ecreateoperator_77',['~CreateOperator',['../classonion_1_1_create_operator.html#acb24f20eb126d3320227308225665ee2',1,'onion::CreateOperator']]],
   ['_7enoncopyable_78',['~NonCopyable',['../classonion_1_1_non_copyable.html#ab9615b28725e20b5b4f9785a96af450f',1,'onion::NonCopyable']]],
   ['_7eobjectivefunction_79',['~ObjectiveFunction',['../classonion_1_1_objective_function.html#a3851d1f3624175cf339bb3774a67562a',1,'onion::ObjectiveFunction']]],
-  ['_7eperturbationoperator_80',['~PerturbationOperator',['../classonion_1_1_perturbation_operator.html#a5de6237e2a98ed354e2ce89b5b960d56',1,'onion::PerturbationOperator']]],
-  ['_7eperturbationparameteroperator_81',['~PerturbationParameterOperator',['../classonion_1_1_perturbation_parameter_operator.html#a6c6ccadcba4488f02bc928d16b46bdc9',1,'onion::PerturbationParameterOperator']]],
+  ['_7eparameteroperator_80',['~ParameterOperator',['../classonion_1_1_parameter_operator.html#acae2568ddb2db541aaa05c501c3e1ce9',1,'onion::ParameterOperator']]],
+  ['_7eperturbationoperator_81',['~PerturbationOperator',['../classonion_1_1_perturbation_operator.html#a5de6237e2a98ed354e2ce89b5b960d56',1,'onion::PerturbationOperator']]],
   ['_7erandomengine_82',['~RandomEngine',['../classonion_1_1_random_engine.html#a41bb9858a8d71b09fa189ea711f5b119',1,'onion::RandomEngine']]],
   ['_7erandomlegacyc_83',['~RandomLegacyC',['../classonion_1_1_random_legacy_c.html#a2de264e61512b30a9c325aacc2c8f4d2',1,'onion::RandomLegacyC']]],
   ['_7erandomstl_84',['~RandomSTL',['../classonion_1_1_random_s_t_l.html#a40ed6bc2240b093f432c9554d2d3fec8',1,'onion::RandomSTL']]],

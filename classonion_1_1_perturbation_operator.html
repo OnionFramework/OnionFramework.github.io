@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('classonion_1_1_perturbation_operator.h
 </div><!--header-->
 <div class="contents">
 
-<p>Defines the interface of the Perturbation Operator.  
+<p>Abstract Data Type that defines the Perturbation Operator.  
  <a href="classonion_1_1_perturbation_operator.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_perturbation_operator_8hpp_source.html">PerturbationOperator.hpp</a>&gt;</code></p>
@@ -151,9 +151,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5de6237e2a98ed354e2ce89b5b960d56"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_perturbation_operator.html#a5de6237e2a98ed354e2ce89b5b960d56">~PerturbationOperator</a> ()=default</td></tr>
 <tr class="memdesc:a5de6237e2a98ed354e2ce89b5b960d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class destructor.  <a href="classonion_1_1_perturbation_operator.html#a5de6237e2a98ed354e2ce89b5b960d56">More...</a><br /></td></tr>
 <tr class="separator:a5de6237e2a98ed354e2ce89b5b960d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86e52c52076d03271147075a685c5041"><td class="memItemLeft" align="right" valign="top">virtual perturbation_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_perturbation_operator.html#a86e52c52076d03271147075a685c5041">operator()</a> (const solution_t &amp;)=0</td></tr>
-<tr class="memdesc:a86e52c52076d03271147075a685c5041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new candidate solutions to a problem. Solutions must be <em><b>complete</b></em> and <em><b>valid</b></em>.  <a href="classonion_1_1_perturbation_operator.html#a86e52c52076d03271147075a685c5041">More...</a><br /></td></tr>
-<tr class="separator:a86e52c52076d03271147075a685c5041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e56ea8ad2a389816cf88cb350e6d58c"><td class="memItemLeft" align="right" valign="top">virtual perturbation_result_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_perturbation_operator.html#a7e56ea8ad2a389816cf88cb350e6d58c">operator()</a> (const solution_t &amp;S)=0</td></tr>
+<tr class="memdesc:a7e56ea8ad2a389816cf88cb350e6d58c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates new candidate solutions to a problem. Solutions must be <em><b>complete</b></em> and <em><b>valid</b></em>.  <a href="classonion_1_1_perturbation_operator.html#a7e56ea8ad2a389816cf88cb350e6d58c">More...</a><br /></td></tr>
+<tr class="separator:a7e56ea8ad2a389816cf88cb350e6d58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classonion_1_1_non_copyable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classonion_1_1_non_copyable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classonion_1_1_non_copyable.html">onion::NonCopyable</a></td></tr>
 <tr class="memitem:a5eb88a0c3d9c31b4aba011ce3761c78f inherit pub_methods_classonion_1_1_non_copyable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_non_copyable.html#a5eb88a0c3d9c31b4aba011ce3761c78f">NonCopyable</a> ()=default</td></tr>
 <tr class="memdesc:a5eb88a0c3d9c31b4aba011ce3761c78f inherit pub_methods_classonion_1_1_non_copyable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor.  <a href="classonion_1_1_non_copyable.html#a5eb88a0c3d9c31b4aba011ce3761c78f">More...</a><br /></td></tr>
@@ -170,26 +170,51 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classonion_1_1_identified_component"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classonion_1_1_identified_component')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classonion_1_1_identified_component.html">onion::IdentifiedComponent</a></td></tr>
-<tr class="memitem:a395907ab7d5185f2ebb5f83e350be2bd inherit pro_methods_classonion_1_1_identified_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_identified_component.html#a395907ab7d5185f2ebb5f83e350be2bd">IdentifiedComponent</a> (const <a class="el" href="classonion_1_1_component_id_builder.html">ComponentIdBuilder</a> &amp;s)</td></tr>
-<tr class="separator:a395907ab7d5185f2ebb5f83e350be2bd inherit pro_methods_classonion_1_1_identified_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef11d1ea7439a6d56f9a65167ef864d2 inherit pro_methods_classonion_1_1_identified_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_identified_component.html#aef11d1ea7439a6d56f9a65167ef864d2">~IdentifiedComponent</a> ()=default</td></tr>
-<tr class="separator:aef11d1ea7439a6d56f9a65167ef864d2 inherit pro_methods_classonion_1_1_identified_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classonion_1_1_component_i_d"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classonion_1_1_component_i_d')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classonion_1_1_component_i_d.html">onion::ComponentID</a></td></tr>
+<tr class="memitem:aac038c8a03a00b5d7e67296cdcb04ec2 inherit pro_methods_classonion_1_1_component_i_d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_component_i_d.html#aac038c8a03a00b5d7e67296cdcb04ec2">ComponentID</a> (const <a class="el" href="classonion_1_1_i_d_builder.html">IDBuilder</a> &amp;builder)</td></tr>
+<tr class="memdesc:aac038c8a03a00b5d7e67296cdcb04ec2 inherit pro_methods_classonion_1_1_component_i_d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor.  <a href="classonion_1_1_component_i_d.html#aac038c8a03a00b5d7e67296cdcb04ec2">More...</a><br /></td></tr>
+<tr class="separator:aac038c8a03a00b5d7e67296cdcb04ec2 inherit pro_methods_classonion_1_1_component_i_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64e3ba3b80b5d07284b5f895501eda91 inherit pro_methods_classonion_1_1_component_i_d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_component_i_d.html#a64e3ba3b80b5d07284b5f895501eda91">~ComponentID</a> ()=default</td></tr>
+<tr class="memdesc:a64e3ba3b80b5d07284b5f895501eda91 inherit pro_methods_classonion_1_1_component_i_d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class destructor.  <a href="classonion_1_1_component_i_d.html#a64e3ba3b80b5d07284b5f895501eda91">More...</a><br /></td></tr>
+<tr class="separator:a64e3ba3b80b5d07284b5f895501eda91 inherit pro_methods_classonion_1_1_component_i_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename solution_t, typename perturbation_result_t&gt;<br />
 class onion::PerturbationOperator&lt; solution_t, perturbation_result_t &gt;</h3>
 
-<p>Defines the interface of the Perturbation Operator. </p>
+<p>Abstract Data Type that defines the Perturbation Operator. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">solution_t</td><td>the type used to represent a solution to a problem. </td></tr>
-    <tr><td class="paramname">perturbation_result_t</td><td>the type used to represent the result of the perturbation operator.</td></tr>
+    <tr><td class="paramname">perturbation_result_t</td><td>the type used to represent the result of the perturbation operation.</td></tr>
   </table>
   </dd>
 </dl>
-<p>Perturbation is the operator responsible for creating canditate solution to a problem starting from a known solution. The <a class="el" href="classonion_1_1_perturbation_operator.html" title="Defines the interface of the Perturbation Operator.">PerturbationOperator</a> class is an (ADT) used to represent this concept and define the protocol of this functionality.</p>
-<p>This is one of the fundamental components of the Onion Framework, the others being the <a class="el" href="classonion_1_1_create_operator.html" title="Defines the interface of the Create Operator.">CreateOperator</a>, the <a class="el" href="classonion_1_1_objective_function.html" title="Defines the interface of ObjectiveFunction components.">ObjectiveFunction</a> and the <a class="el" href="classonion_1_1_select_operator.html" title="Defines the interface of SelectOperator components.">SelectOperator</a>. </p>
+<p><a class="el" href="classonion_1_1_perturbation_operator.html" title="Abstract Data Type that defines the Perturbation Operator.">PerturbationOperator</a> objects create new solutions to a problem by performing small modifications in a known solution.</p>
+<p>The <a class="el" href="classonion_1_1_perturbation_operator.html" title="Abstract Data Type that defines the Perturbation Operator.">PerturbationOperator</a> is the engine of an algorithm. It illuminates the close vicinity of a solution in the search for better alternatives. Thats why it is also called Neighborhood function or Neighborhood operator by many authors.</p>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="classonion_1_1_perturbation_operator.html" title="Abstract Data Type that defines the Perturbation Operator.">PerturbationOperator</a> is an <a href="./md__glossary.html#abstract_data_type">Abstract Data Type</a>. It means it provides no functionality and can't be instantiated. Instead, its purpose is to define unambiguously what "Perturbation" means in the framewok's context. Actual functionality will be defined later by concrete implementions in derived classes.</dd></dl>
+<h2><a class="anchor" id="perturb_op_bk"></a>Background</h2>
+<p>Consider a solution <b>S</b> to a problem. A perturbation <b>P</b> is defined as an operation that takes some solution <b>S</b> as a parameter and produces one or new solutions as a result:</p>
+<p><b>Perturb(S) = {S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>n</sub>}, n &gt;= 1 </b></p>
+<p>Each new solution is the result of a small <em>transformation</em>, <b>τ</b>, of the original solution. Each <b>τ</b> is a fixed and simple procedure that always does the same thing. For example, the 2-opt algorithm, used in the <a href="md__glossary.html#tsp">Traveling Salesman Problem (TSP)</a> is a paremeterized <b>τ</b> procedure. It receives a start position, <em>s</em>, and a length, <em>l</em> and reverses part of hamiltonian cycle, from <em>s</em> to <em>l</em>.</p>
+<p>Different solutions are, by definition, only the result of different parameters passed to the <b>τ</b>. With that in mind we can write</p>
+<p><b>S<sub>i</sub> = τ(S,p<sub>i</sub>), {1 ≤ i ≤ n}</b>.</p>
+<p>where <b>p<sub>i</sub></b> is the i<sub>th</sub> set of parameters passed to <b>τ</b>.</p>
+<p>We can represent <b>P</b> in a compact form as the result of a list comprehension:</p>
+<p><b>P(S) = { τ(S,p<sub>i</sub>) | p<sub>i</sub> &isin; {p<sub>1</sub>,...,p<sub>n</sub>} }</b></p>
+<p>Because solutions must also be valid we can write:</p>
+<p><b>P(S) = { τ(S,p<sub>i</sub>) | p<sub>i</sub> &isin; {p<sub>1</sub>,...,p<sub>n</sub>}, IsValid( τ(,p<sub>i</sub>) }</b>.</p>
+<p>Where <b>IsValid</b> is a problem-specific validation function.</p>
+<dl class="section remark"><dt>Remarks</dt><dd><ol type="1">
+<li>Perturbation is an operation that produces new candidate solutions to a problem by creating small variations in known solutions.</li>
+<li>The solutions are required to be both <b>complete</b> and <b>valid</b>. <b>Perturbations</b> must satisfy the same requirements as CreateOperators.</li>
+<li>To create new solutions it uses a fixed and simple procedure called <em><b>Transformation</b></em>, <b>τ(S,p<sub>i</sub>)</b>.</li>
+<li><b>τ(S,p<sub>i</sub>)</b> is always parameterized by some set of parameters <b>p<sub>i</sub></b>, except, possibly, in the special case when it returns a single solution.</li>
+<li>Different solutions created by <b>τ(S,p<sub>i</sub>)</b> can <em><b>only</b></em> be the result of different values of **p<sub>i</sub>** passed to it.</li>
+</ol>
+</dd></dl>
+<dl class="section attention"><dt>Attention</dt><dd>Definition #5 implies that any <a class="el" href="classonion_1_1_perturbation_operator.html" title="Abstract Data Type that defines the Perturbation Operator.">PerturbationOperator</a> can implement one and only one transformation. However, many algorithms do use more than one perturbation. The classical examples are the <a href="md__glossary.html#vna">Variable Neighborhood Algorithms</a>. In these cases, in order to preserve the Framework's component model, <b>each different perturbation <em>must</em> be implemented as a separate component.</b></dd></dl>
+<p>This completes the definition of Perturbation operator in the Onion Franmework context. It is also the base to define its sister concept: the <a class="el" href="classonion_1_1_parameter_operator.html" title="Abstract Data Type that defines the ParameterOperator component.">ParameterOperator</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5de6237e2a98ed354e2ce89b5b960d56"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5de6237e2a98ed354e2ce89b5b960d56">&#9670;&nbsp;</a></span>~PerturbationOperator()</h2>
@@ -221,8 +246,8 @@ template&lt;typename solution_t , typename perturbation_result_t &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a86e52c52076d03271147075a685c5041"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86e52c52076d03271147075a685c5041">&#9670;&nbsp;</a></span>operator()()</h2>
+<a id="a7e56ea8ad2a389816cf88cb350e6d58c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e56ea8ad2a389816cf88cb350e6d58c">&#9670;&nbsp;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,7 +261,7 @@ template&lt;typename solution_t , typename perturbation_result_t &gt; </div>
           <td class="memname">virtual perturbation_result_t <a class="el" href="classonion_1_1_perturbation_operator.html">onion::PerturbationOperator</a>&lt; solution_t, perturbation_result_t &gt;::operator() </td>
           <td>(</td>
           <td class="paramtype">const solution_t &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>S</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -250,16 +275,16 @@ template&lt;typename solution_t , typename perturbation_result_t &gt; </div>
 <p>Creates new candidate solutions to a problem. Solutions must be <em><b>complete</b></em> and <em><b>valid</b></em>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">A</td><td>solution to be perturbed. </td></tr>
+    <tr><td class="paramname">S</td><td>a solution. This is the starting point from wich new candidate solutions will be created. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A (possibly unitary) set of solution_t objects. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A (possibly unitary) set of solution objects. </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/ladeira/Documents/src/onion/onion/<a class="el" href="_perturbation_operator_8hpp_source.html">PerturbationOperator.hpp</a></li>
+<li>/Users/ladeira/Documents/src/onion/<a class="el" href="_perturbation_operator_8hpp_source.html">PerturbationOperator.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

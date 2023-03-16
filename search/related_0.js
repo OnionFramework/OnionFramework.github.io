@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['identifiedcomponent_184',['IdentifiedComponent',['../classonion_1_1_component_id_builder.html#a083fe4c13e0273af977d049c0604e5b4',1,'onion::ComponentIdBuilder']]]
+  ['componentid_183',['ComponentID',['../classonion_1_1_i_d_builder.html#a0e4a0fc473346503ffb44fb25c948825',1,'onion::IDBuilder']]]
 ];

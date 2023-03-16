@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['identifiedcomponent_137',['IdentifiedComponent',['../classonion_1_1_identified_component.html#a395907ab7d5185f2ebb5f83e350be2bd',1,'onion::IdentifiedComponent']]]
+  ['less_139',['Less',['../namespaceonion.html#a5645539c7b07f3d162d3ba68752fc913',1,'onion']]],
+  ['lessorequal_140',['LessOrEqual',['../namespaceonion.html#a5213162287af679a1ad891c8e763c61b',1,'onion']]]
 ];

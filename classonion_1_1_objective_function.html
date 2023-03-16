@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('classonion_1_1_objective_function.html
 </div><!--header-->
 <div class="contents">
 
-<p>Defines the interface of <a class="el" href="classonion_1_1_objective_function.html" title="Defines the interface of ObjectiveFunction components.">ObjectiveFunction</a> components.  
+<p>Abstract Data Type that defines the ObjectiveFuntion component.  
  <a href="classonion_1_1_objective_function.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_objective_function_8hpp_source.html">ObjectiveFunction.hpp</a>&gt;</code></p>
@@ -170,17 +170,19 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classonion_1_1_identified_component"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classonion_1_1_identified_component')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classonion_1_1_identified_component.html">onion::IdentifiedComponent</a></td></tr>
-<tr class="memitem:a395907ab7d5185f2ebb5f83e350be2bd inherit pro_methods_classonion_1_1_identified_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_identified_component.html#a395907ab7d5185f2ebb5f83e350be2bd">IdentifiedComponent</a> (const <a class="el" href="classonion_1_1_component_id_builder.html">ComponentIdBuilder</a> &amp;s)</td></tr>
-<tr class="separator:a395907ab7d5185f2ebb5f83e350be2bd inherit pro_methods_classonion_1_1_identified_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef11d1ea7439a6d56f9a65167ef864d2 inherit pro_methods_classonion_1_1_identified_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_identified_component.html#aef11d1ea7439a6d56f9a65167ef864d2">~IdentifiedComponent</a> ()=default</td></tr>
-<tr class="separator:aef11d1ea7439a6d56f9a65167ef864d2 inherit pro_methods_classonion_1_1_identified_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classonion_1_1_component_i_d"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classonion_1_1_component_i_d')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classonion_1_1_component_i_d.html">onion::ComponentID</a></td></tr>
+<tr class="memitem:aac038c8a03a00b5d7e67296cdcb04ec2 inherit pro_methods_classonion_1_1_component_i_d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_component_i_d.html#aac038c8a03a00b5d7e67296cdcb04ec2">ComponentID</a> (const <a class="el" href="classonion_1_1_i_d_builder.html">IDBuilder</a> &amp;builder)</td></tr>
+<tr class="memdesc:aac038c8a03a00b5d7e67296cdcb04ec2 inherit pro_methods_classonion_1_1_component_i_d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor.  <a href="classonion_1_1_component_i_d.html#aac038c8a03a00b5d7e67296cdcb04ec2">More...</a><br /></td></tr>
+<tr class="separator:aac038c8a03a00b5d7e67296cdcb04ec2 inherit pro_methods_classonion_1_1_component_i_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64e3ba3b80b5d07284b5f895501eda91 inherit pro_methods_classonion_1_1_component_i_d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classonion_1_1_component_i_d.html#a64e3ba3b80b5d07284b5f895501eda91">~ComponentID</a> ()=default</td></tr>
+<tr class="memdesc:a64e3ba3b80b5d07284b5f895501eda91 inherit pro_methods_classonion_1_1_component_i_d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class destructor.  <a href="classonion_1_1_component_i_d.html#a64e3ba3b80b5d07284b5f895501eda91">More...</a><br /></td></tr>
+<tr class="separator:a64e3ba3b80b5d07284b5f895501eda91 inherit pro_methods_classonion_1_1_component_i_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename solution_t, typename objective_value_t&gt;<br />
 class onion::ObjectiveFunction&lt; solution_t, objective_value_t &gt;</h3>
 
-<p>Defines the interface of <a class="el" href="classonion_1_1_objective_function.html" title="Defines the interface of ObjectiveFunction components.">ObjectiveFunction</a> components. </p>
+<p>Abstract Data Type that defines the ObjectiveFuntion component. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">solution_t</td><td>the type used to represent a solution to a problem. </td></tr>
@@ -188,10 +190,9 @@ class onion::ObjectiveFunction&lt; solution_t, objective_value_t &gt;</h3>
   </table>
   </dd>
 </dl>
-<p>The <a class="el" href="classonion_1_1_objective_function.html" title="Defines the interface of ObjectiveFunction components.">ObjectiveFunction</a> is responsible for assigning a value to a solution of a problem.</p>
-<p>All algorithms are, in essence, ways of navigating the solution space. In this metaphore, the <a class="el" href="classonion_1_1_objective_function.html" title="Defines the interface of ObjectiveFunction components.">ObjectiveFunction</a> can be interpreted as the compass that poits towards the right direction. Its the objective function that tells the algorithm if a solution A is better or worse than a solution B.</p>
-<p>The <a class="el" href="classonion_1_1_objective_function.html" title="Defines the interface of ObjectiveFunction components.">ObjectiveFunction</a> class is an ADT used to represent this concept and define the protocol of this functionality.</p>
-<p>This is one of the fundamental components of the Onion Framework, the others being the <a class="el" href="classonion_1_1_create_operator.html" title="Defines the interface of the Create Operator.">CreateOperator</a>, the <a class="el" href="classonion_1_1_perturbation_operator.html" title="Defines the interface of the Perturbation Operator.">PerturbationOperator</a> and the <a class="el" href="classonion_1_1_select_operator.html" title="Defines the interface of SelectOperator components.">SelectOperator</a>. </p>
+<p>In simple terms, <a class="el" href="classonion_1_1_objective_function.html" title="Abstract Data Type that defines the ObjectiveFuntion component.">ObjectiveFunction</a> determines the value of a particular solution to a problem, based on the compact data used to represent a problem instance.</p>
+<p>All algorithms are, in essence, ways of navigating the solution space. In this metaphore, the <a class="el" href="classonion_1_1_objective_function.html" title="Abstract Data Type that defines the ObjectiveFuntion component.">ObjectiveFunction</a> is the compass that poits towards the right direction. It is the objective function that tells the algorithm if a solution <b>A</b> is better or worse than some other alternative <b>B</b>.</p>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="classonion_1_1_objective_function.html" title="Abstract Data Type that defines the ObjectiveFuntion component.">ObjectiveFunction</a> is an <a href="./md__glossary.html#abstract_data_type">Abstract Data Type</a>. It means it provides no functionality and can't be instantiated. Instead, its purpose is to define unambiguously what "Objective" means in the framewok's context. Actual functionality will be defined later by concrete implementions in derived classes. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3851d1f3624175cf339bb3774a67562a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3851d1f3624175cf339bb3774a67562a">&#9670;&nbsp;</a></span>~ObjectiveFunction()</h2>
@@ -261,7 +262,7 @@ template&lt;typename solution_t , typename objective_value_t &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/ladeira/Documents/src/onion/onion/<a class="el" href="_objective_function_8hpp_source.html">ObjectiveFunction.hpp</a></li>
+<li>/Users/ladeira/Documents/src/onion/<a class="el" href="_objective_function_8hpp_source.html">ObjectiveFunction.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

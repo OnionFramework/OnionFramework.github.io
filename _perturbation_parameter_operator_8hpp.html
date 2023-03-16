@@ -16,7 +16,7 @@
 <meta name="twitter:title" content="Doxygen Awesome" />
 <meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
 <!-- END twitter metadata -->
-<title>Onion Framework: /Users/ladeira/Documents/src/onion/onion/PerturbationParameterOperator.hpp File Reference</title>
+<title>Onion Framework: /Users/ladeira/Documents/src/onion/PerturbationParameterOperator.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" type="image/png" href="onion_ico.png"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -135,10 +135,10 @@ $(document).ready(function(){initNavTree('_perturbation_parameter_operator_8hpp.
 </div><!--header-->
 <div class="contents">
 
-<p>This header defines the PerturbationParameterOperator ADT.  
+<p>This header has the definition of the CreateOperator component.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="_non_copyable_8hpp_source.html">NonCopyable.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_identified_component_8hpp_source.html">IdentifiedComponent.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_component_i_d_8hpp_source.html">ComponentID.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for PerturbationParameterOperator.hpp:</div>
 <div class="dyncontent">
@@ -160,55 +160,15 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This header defines the PerturbationParameterOperator ADT. </p>
-<h3><a class="anchor" id="PerturbationParameterOperator_BK"></a>Background</h3>
-<p>A regular Perturbation operator receives a solution to a problem and produces a (possibly unitary) set of new <b>complete</b> candidate solutions. It does that through the repeated application of a transformation function <b>T</b> on solution <b>S</b> as detailed <a href="_perturbation_operator_8hpp.html">here</a>.</p>
-<p>To create complete solutions is not advisable nor possible in many cases. It results in applications that are unecessarily slow or demand unafordable ammounts of memory.</p>
-<p>Usually, the solution in these cases involves performing perturbation, evaluation and, sometimes, selection in a single pass.</p>
-<p>The perturbation step in these procedures <em><b>does not</b></em> creates complete solutions. Instead, it generates a series of <em>transformation</em> operations (small modifications to the original solution). The value of the <em>potential solutions</em> that would be created by these transformations is evaluated considering the difference in the original value caused by the transformation. In other words:</p>
-<p><b>v<sub>i</sub> = v<sub>0</sub> + D( S,T(P<sub>i</sub>) )</b></p>
-<p>where,</p>
-<p><b>v<sub>i</sub></b> : value of the ith candidate solution.<br  />
- <b>v<sub>0</sub></b> : value of the current solution.<br  />
- <b>S</b> : current solution.<br  />
- <b>T(P<sub>i</sub>)</b> : transformation.<br  />
- <b>P<sub>i</sub></b> : ith parameter passed to the transformation function. <b>D(S,T<sub>i</sub>)</b> : Delta objective function.<br  />
-</p>
-<p>Most of the concepts above were already described <a href="_perturbation_operator_8hpp.html">here</a>, but there are some important differences.</p>
-<ol type="1">
-<li><b>T</b> here creates transformations, not complete solutions. Therefore, it depends only on <b>P<sub>i</sub></b>.</li>
-<li>The <b>D(S,T)</b> function receives a solution and a transformation as parameters and returns the <em><b>difference in the value of the solution</b></em> caused by the transformation <b>T(P<sub>i</sub>)</b>. Because of that we name it <b>DeltaObjective</b> function.</li>
-</ol>
-<p>This kind of solution effectively solves the memory and performance problems. Transformations and Objective operations are, <b>at minimum</b> <b>O(|S|)</b>, <b>|S|</b> being the size of the object used to represent a solution. If any component of <b>S</b> demands more than <b>O(1)</b> to be created/evaluated these costs are bigger. In most cases, create and evaluate <em>transformations</em> are <b>O(1)</b> on the size of <b>S</b>.</p>
-<p>Nevertheless, the entanglement of concepts involved in this kind of solution clashes with fundamental design principles of the framework.</p>
-<p>The Onion Framework is structured around components that are</p>
-<ul>
-<li>Uncoupled (independent of each other) by design.</li>
-<li>Associable (may connected to each other) if, and only if, required.</li>
-<li>Simple: Each component <b>must</b> have a single and well defined responsibility.</li>
-<li>Extensible and reusable.</li>
-</ul>
-<p>Achieve these properties simultaneously demands carefull design and a considerable software engineering effort, but it results in the virtues we were looking for when we started this work.</p>
-<ul>
-<li>Scalability: new components are added and combined with the existing ones, not recreated.</li>
-<li>Reusable code: abstractions, uncoupling and single responsability results in highly reusable code.</li>
-<li>Reproduction of results: clearly defined components and algorithms make code interpretation and reproduction much easier.</li>
-<li>Performance attribution: separation of concerns and clear boudaries induced by components make easier to attrubute and measure performance.</li>
-</ul>
-<p>In order to keep the virtues without incurring in the aforementioned problems the Framework introduces a few "new" concepts and facilities to use these concepts.</p>
-<p>They are:</p>
-<ul>
-<li>The <b>PerturbationParameterOperator:</b> an operator whose single responsibility is to create a (possibly unitary) set ofvalid parameters <b>P<sub>i</sub></b> that will be interpreted and evaluated by the</li>
-<li><b>DeltaObjective</b> function: whose single responsibility is to calculate the <em>difference</em> in the value od a solution <b>S</b> that results from the application of <b>T(P<sub>i</sub>)</b> on <b>S</b>.</li>
-</ul>
-<p>In fact, the Perturbation - Objective steps (and its derivatives above) are better understood as a dyad: two concepts that, altough independent, always work togeter. </p><hr  />
+<div class="textblock"><p>This header has the definition of the CreateOperator component. </p>
+<hr  />
  <dl class="section copyright"><dt>Copyright</dt><dd>2022 André Ladeira / Onion Framework. </dd></dl>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_768391f28944dce58af16eb0f1f9e6f7.html">onion</a></li><li class="navelem"><a class="el" href="dir_aa03dd98a0e33e4b253be7365e0e36b3.html">onion</a></li><li class="navelem"><a class="el" href="_perturbation_parameter_operator_8hpp.html">PerturbationParameterOperator.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_768391f28944dce58af16eb0f1f9e6f7.html">onion</a></li><li class="navelem"><a class="el" href="_perturbation_parameter_operator_8hpp.html">PerturbationParameterOperator.hpp</a></li>
     <li class="footer">Generated by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>

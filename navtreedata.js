@@ -29,7 +29,16 @@ var NAVTREE =
     [ "Installation", "index.html#install_sec", [
       [ "Step 1: Opening the box", "index.html#step1", null ]
     ] ],
-    [ "List of terms", "md___users_ladeira__documents_src_onion_doc_md__list_of_terms.html", null ],
+    [ "Design Principles", "index.html#design", null ],
+    [ "Definitions", "md__glossary.html", [
+      [ "About this page", "md__glossary.html#about", null ],
+      [ "Abstract Data Type", "md__glossary.html#adt", null ],
+      [ "Delta Components", "md__glossary.html#delta_components", null ],
+      [ "Randon Number Generation", "md__glossary.html#rng", null ],
+      [ "Builder Pattern", "md__glossary.html#builder_pattern", null ],
+      [ "Traveling Salesman Problem (TSP)", "md__glossary.html#tsp", null ],
+      [ "Variable Neighborhood Algorithms", "md__glossary.html#vna", null ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [

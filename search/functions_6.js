@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['less_138',['Less',['../namespaceonion.html#a5645539c7b07f3d162d3ba68752fc913',1,'onion']]],
-  ['lessorequal_139',['LessOrEqual',['../namespaceonion.html#a5213162287af679a1ad891c8e763c61b',1,'onion']]]
+  ['name_141',['name',['../classonion_1_1_i_d_builder.html#acc5a59f9d84a711740afcf55d308da6a',1,'onion::IDBuilder']]],
+  ['noncopyable_142',['NonCopyable',['../classonion_1_1_non_copyable.html#a5eb88a0c3d9c31b4aba011ce3761c78f',1,'onion::NonCopyable::NonCopyable()=default'],['../classonion_1_1_non_copyable.html#a36b4da45d704cf7615dfd45bd35084d2',1,'onion::NonCopyable::NonCopyable(const NonCopyable &amp;)=delete']]]
 ];
