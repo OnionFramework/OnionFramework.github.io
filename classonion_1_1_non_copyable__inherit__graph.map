@@ -1,0 +1,11 @@
+<map id="onion::NonCopyable" name="onion::NonCopyable">
+<area shape="rect" id="node1" title="Class to make other classes non&#45;copyable." alt="" coords="5,225,159,251"/>
+<area shape="rect" id="node2" href="$classonion_1_1_create_operator.html" title=" " alt="" coords="211,5,406,47"/>
+<area shape="rect" id="node4" href="$classonion_1_1_create_operator.html" title="Abstract Data Type that defines the CreateOperator component." alt="" coords="225,71,392,112"/>
+<area shape="rect" id="node5" href="$classonion_1_1_objective_function.html" title="Abstract Data Type that defines the ObjectiveFuntion component." alt="" coords="217,137,400,193"/>
+<area shape="rect" id="node6" href="$classonion_1_1_parameter_operator.html" title="Abstract Data Type that defines the ParameterOperator component." alt="" coords="207,217,411,259"/>
+<area shape="rect" id="node7" href="$classonion_1_1_perturbation_operator.html" title="Abstract Data Type that defines the Perturbation Operator." alt="" coords="207,283,410,339"/>
+<area shape="rect" id="node8" href="$classonion_1_1_random_engine_proxy.html" title="Creates and control the access to the global RandonEngine object." alt="" coords="208,363,409,390"/>
+<area shape="rect" id="node9" href="$classonion_1_1_select_operator.html" title="Defines the interface of SelectOperator components." alt="" coords="213,415,404,485"/>
+<area shape="rect" id="node3" href="$classonion_1_1cops_1_1tsp_1_1array_1_1_create_random.html" title=" " alt="" coords="459,5,687,47"/>
+</map>
