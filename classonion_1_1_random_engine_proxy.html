@@ -172,7 +172,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Creates and control the access to the global RandonEngine object. </p>
-<p>The Onion Framework recomends that random number generation to be both centralized and homogeneous, i.e., use a single algorithm. A discussion on this subject is presented <a class="el" href="_random_8hpp.html">(here)</a>.</p>
+<p>The Onion Framework recomends random number generation to be</p><ul>
+<li>centralized: perfomed by a single, easily replaceable object</li>
+<li>homogeneous: use the same algorithm anywhere RNG is necessary. A discussion on this subject is presented <a class="el" href="_random_8hpp.html">(here)</a>.</li>
+</ul>
 <p>All <a class="el" href="classonion_1_1_random_engine_proxy.html" title="Creates and control the access to the global RandonEngine object.">RandomEngineProxy</a> methods are private. RNG functionalities are accessed using the <a class="el" href="classonion_1_1_random_engine_proxy.html#ac16be45fae47ea915d2331cc7af1d7e2" title="Return access point to the global RandomEngine object.">Random()</a> and SetRandomEngine functions. </p>
 </div><h2 class="groupheader">Friends And Related Function Documentation</h2>
 <a id="ac16be45fae47ea915d2331cc7af1d7e2"></a>
