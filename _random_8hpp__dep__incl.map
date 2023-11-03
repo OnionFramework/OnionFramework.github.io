@@ -1,4 +1,4 @@
-<map id="/Users/ladeira/Documents/src/onion/Random.hpp" name="/Users/ladeira/Documents/src/onion/Random.hpp">
-<area shape="rect" id="node1" title="This header introduces the random number generation (RNG) facilities of the Onion Framework." alt="" coords="5,5,180,47"/>
-<area shape="rect" id="node2" href="$_random_8cpp.html" title="Implementation of the global RandomEngine object." alt="" coords="5,95,180,136"/>
+<map id="Random.hpp" name="Random.hpp">
+<area shape="rect" id="node1" title="This header introduces the random number generation (RNG) facilities of the Onion Framework." alt="" coords="5,5,101,32"/>
+<area shape="rect" id="node2" href="$_random_8cpp.html" title="Implementation of the global RandomEngine object." alt="" coords="5,80,101,107"/>
 </map>

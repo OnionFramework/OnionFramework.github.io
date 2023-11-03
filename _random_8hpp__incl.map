@@ -1,5 +1,5 @@
-<map id="/Users/ladeira/Documents/src/onion/Random.hpp" name="/Users/ladeira/Documents/src/onion/Random.hpp">
-<area shape="rect" id="node1" title="This header introduces the random number generation (RNG) facilities of the Onion Framework." alt="" coords="63,5,238,47"/>
-<area shape="rect" id="node2" href="$_random_engine_8hpp.html" title="Declaration of the RandomEngine interface." alt="" coords="5,95,141,121"/>
-<area shape="rect" id="node3" href="$_non_copyable_8hpp.html" title="Contains the declaration of the NonCopyable class." alt="" coords="166,95,293,121"/>
+<map id="Random.hpp" name="Random.hpp">
+<area shape="rect" id="node1" title="This header introduces the random number generation (RNG) facilities of the Onion Framework." alt="" coords="103,5,199,32"/>
+<area shape="rect" id="node2" href="$_random_engine_8hpp.html" title="Declaration of the RandomEngine interface." alt="" coords="5,80,141,107"/>
+<area shape="rect" id="node3" href="$_non_copyable_8hpp.html" title="Contains the declaration of the NonCopyable class." alt="" coords="166,80,293,107"/>
 </map>
