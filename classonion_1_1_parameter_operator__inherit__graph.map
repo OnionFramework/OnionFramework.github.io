@@ -1,5 +1,5 @@
 <map id="onion::ParameterOperator&lt; solution_t, parameter_t &gt;" name="onion::ParameterOperator&lt; solution_t, parameter_t &gt;">
-<area shape="rect" id="node1" title="Abstract Data Type that defines the ParameterOperator component." alt="" coords="69,80,273,121"/>
-<area shape="rect" id="node2" href="$classonion_1_1_non_copyable.html" title="Class to make other classes non&#45;copyable." alt="" coords="5,5,159,32"/>
-<area shape="rect" id="node3" href="$classonion_1_1_component_i_d.html" title="Base class used to identify concrete implementations of the Onion basic components." alt="" coords="183,5,338,32"/>
+<area shape="rect" id="node1" title="Abstract Data Type that defines the ParameterOperator component." alt="" coords="69,80,247,121"/>
+<area shape="rect" id="node2" href="$classonion_1_1_non_copyable.html" title="Class to make other classes non&#45;copyable." alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node3" href="$classonion_1_1_component_i_d.html" title="Base class used to identify concrete implementations of the Onion basic components." alt="" coords="169,5,312,32"/>
 </map>

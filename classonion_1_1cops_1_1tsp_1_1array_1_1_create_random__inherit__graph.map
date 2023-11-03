@@ -1,6 +1,6 @@
 <map id="onion::cops::tsp::array::CreateRandom&lt; num_cities &gt;" name="onion::cops::tsp::array::CreateRandom&lt; num_cities &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="57,169,285,211"/>
-<area shape="rect" id="node2" href="$classonion_1_1_create_operator.html" title=" " alt="" coords="74,80,269,121"/>
-<area shape="rect" id="node3" href="$classonion_1_1_non_copyable.html" title="Class to make other classes non&#45;copyable." alt="" coords="5,5,159,32"/>
-<area shape="rect" id="node4" href="$classonion_1_1_component_i_d.html" title="Base class used to identify concrete implementations of the Onion basic components." alt="" coords="183,5,338,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="55,169,261,211"/>
+<area shape="rect" id="node2" href="$classonion_1_1_create_operator.html" title=" " alt="" coords="73,80,243,121"/>
+<area shape="rect" id="node3" href="$classonion_1_1_non_copyable.html" title="Class to make other classes non&#45;copyable." alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node4" href="$classonion_1_1_component_i_d.html" title="Base class used to identify concrete implementations of the Onion basic components." alt="" coords="169,5,312,32"/>
 </map>
