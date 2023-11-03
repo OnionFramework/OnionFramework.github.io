@@ -1,6 +1,6 @@
 <map id="/Users/ladeira/Documents/src/onion/RandomLegacyC.hpp" name="/Users/ladeira/Documents/src/onion/RandomLegacyC.hpp">
-<area shape="rect" id="node1" title="Implementation of the RandomEngine interface using the legacy C facilities from the C stdlib." alt="" coords="126,5,335,47"/>
-<area shape="rect" id="node2" href="$_random_engine_8hpp.html" title="Declaration of the RandomEngine interface." alt="" coords="5,95,176,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="201,95,261,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="285,95,339,121"/>
+<area shape="rect" id="node1" title="Implementation of the RandomEngine interface using the legacy C facilities from the C stdlib." alt="" coords="91,5,301,47"/>
+<area shape="rect" id="node2" href="$_random_engine_8hpp.html" title="Declaration of the RandomEngine interface." alt="" coords="5,95,141,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="166,95,226,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="250,95,305,121"/>
 </map>
