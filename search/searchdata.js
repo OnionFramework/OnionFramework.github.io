@@ -8,7 +8,7 @@ var indexSectionsWithContent =
   5: "dhnptv",
   6: "ciprstv",
   7: "cors",
-  8: "d"
+  8: "do"
 };
 
 var indexSectionNames =

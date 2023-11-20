@@ -1,5 +1,6 @@
 var namespaceonion =
 [
+    [ "algorithms", "namespaceonion_1_1algorithms.html", null ],
     [ "cops", "namespaceonion_1_1cops.html", "namespaceonion_1_1cops" ],
     [ "ComponentData", "classonion_1_1_component_data.html", "classonion_1_1_component_data" ],
     [ "ComponentID", "classonion_1_1_component_i_d.html", "classonion_1_1_component_i_d" ],
@@ -14,5 +15,20 @@ var namespaceonion =
     [ "RandomEngineProxy", "classonion_1_1_random_engine_proxy.html", "classonion_1_1_random_engine_proxy" ],
     [ "RandomLegacyC", "classonion_1_1_random_legacy_c.html", "classonion_1_1_random_legacy_c" ],
     [ "RandomSTL", "classonion_1_1_random_s_t_l.html", "classonion_1_1_random_s_t_l" ],
-    [ "SelectOperator", "classonion_1_1_select_operator.html", "classonion_1_1_select_operator" ]
+    [ "SelectOperator", "classonion_1_1_select_operator.html", "classonion_1_1_select_operator" ],
+    [ "ComparissonOperator", "namespaceonion.html#adef33584ccb771a6770fab60fd3533ad", null ],
+    [ "void_t", "namespaceonion.html#a0aeb5aef0c478158a177127a29c99a95", null ],
+    [ "Equal", "namespaceonion.html#a8470cf1d1028bbc4c29539524560feb4", null ],
+    [ "False", "namespaceonion.html#a5048e2d297d4243e9cdbdd4ac7fbb62d", null ],
+    [ "Greater", "namespaceonion.html#ab06cef073563b091c2d3a8b07a294fc1", null ],
+    [ "GreaterOrEqual", "namespaceonion.html#ae1b5878bc2860621ce987fb2bdcc2d7d", null ],
+    [ "Less", "namespaceonion.html#a5645539c7b07f3d162d3ba68752fc913", null ],
+    [ "LessOrEqual", "namespaceonion.html#a5213162287af679a1ad891c8e763c61b", null ],
+    [ "operator<<", "namespaceonion.html#adab5ec2e168915ea82afbd333ee4c5b2", null ],
+    [ "operator<<", "namespaceonion.html#a241afe17a8b893fea5e7dc6ff61c0a6c", null ],
+    [ "Random", "namespaceonion.html#a3e9872ca117ff919824332edac733d96", null ],
+    [ "SetRandomEngine", "namespaceonion.html#ae23407f6fc77f1bb2a9b6fc3c2c42dfc", null ],
+    [ "True", "namespaceonion.html#a9148f9d01b42e28450285ebecae56e1e", null ],
+    [ "has_member_at", "namespaceonion.html#af168f1b6a135e7912d184209b69ae4c7", null ],
+    [ "has_subscript_operator", "namespaceonion.html#ac559f10c80cf43c0172061594c1e4861", null ]
 ];
