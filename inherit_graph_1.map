@@ -1,3 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classonion_1_1_component_data.html" title="Class that contains the data used to identify a component." alt="" coords="5,5,161,32"/>
+<area shape="rect" id="node1" href="$classonion_1_1_component_i_d.html" title="Base class used to provide identification functionalities to concrete implementations of the Onion co..." alt="" coords="5,189,160,215"/>
+<area shape="rect" id="node2" href="$classonion_1_1_create_operator.html" title=" " alt="" coords="213,247,407,288"/>
+<area shape="rect" id="node4" href="$classonion_1_1_create_operator.html" title="Abstract Data Type that defines the CreateOperator component." alt="" coords="227,312,393,353"/>
+<area shape="rect" id="node5" href="$classonion_1_1_objective_function.html" title="Abstract Data Type that defines the ObjectiveFuntion component." alt="" coords="219,378,401,434"/>
+<area shape="rect" id="node6" href="$classonion_1_1_parameter_operator.html" title="Abstract Data Type that defines the ParameterOperator component." alt="" coords="208,5,412,47"/>
+<area shape="rect" id="node7" href="$classonion_1_1_perturbation_operator.html" title="Abstract Data Type that defines the Perturbation Operator." alt="" coords="209,71,411,127"/>
+<area shape="rect" id="node8" href="$classonion_1_1_select_operator.html" title="Defines the interface of SelectOperator components." alt="" coords="215,152,405,223"/>
+<area shape="rect" id="node3" href="$classonion_1_1cops_1_1tsp_1_1array_1_1_create_random.html" title=" " alt="" coords="460,247,688,288"/>
+<area shape="rect" id="node9" href="$classonion_1_1_non_copyable.html" title="Class to make other classes non&#45;copyable." alt="" coords="6,254,159,281"/>
+<area shape="rect" id="node10" href="$classonion_1_1_random_engine_proxy.html" title="Creates and control the access to the global RandonEngine object." alt="" coords="209,458,411,485"/>
 </map>

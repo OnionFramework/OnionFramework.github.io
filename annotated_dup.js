@@ -22,6 +22,5 @@ var annotated_dup =
       [ "RandomLegacyC", "classonion_1_1_random_legacy_c.html", "classonion_1_1_random_legacy_c" ],
       [ "RandomSTL", "classonion_1_1_random_s_t_l.html", "classonion_1_1_random_s_t_l" ],
       [ "SelectOperator", "classonion_1_1_select_operator.html", "classonion_1_1_select_operator" ]
-    ] ],
-    [ "ComponentIDBuilder", "class_component_i_d_builder.html", null ]
+    ] ]
 ];

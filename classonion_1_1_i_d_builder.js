@@ -5,5 +5,6 @@ var classonion_1_1_i_d_builder =
     [ "problem", "classonion_1_1_i_d_builder.html#a4e0be0ceb0c5756f369d116ff9b8933a", null ],
     [ "type", "classonion_1_1_i_d_builder.html#a834f8bb1c8c63a9dc7639144fe02ca9d", null ],
     [ "version", "classonion_1_1_i_d_builder.html#a4b7afe92417e6be189885cc5c75045ce", null ],
-    [ "ComponentID", "classonion_1_1_i_d_builder.html#a0e4a0fc473346503ffb44fb25c948825", null ]
+    [ "ComponentID", "classonion_1_1_i_d_builder.html#a0e4a0fc473346503ffb44fb25c948825", null ],
+    [ "_id", "classonion_1_1_i_d_builder.html#a96231cfbfe5a2fb83bb03d1aa7e2780c", null ]
 ];

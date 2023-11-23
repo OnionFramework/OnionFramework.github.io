@@ -1,10 +1,10 @@
 <map id="onion::ComponentID" name="onion::ComponentID">
-<area shape="rect" id="node1" title="Base class used to identify concrete implementations of the Onion basic components." alt="" coords="5,189,148,215"/>
-<area shape="rect" id="node2" href="$classonion_1_1_create_operator.html" title=" " alt="" coords="202,5,371,47"/>
-<area shape="rect" id="node4" href="$classonion_1_1_create_operator.html" title="Abstract Data Type that defines the CreateOperator component." alt="" coords="211,71,362,112"/>
-<area shape="rect" id="node5" href="$classonion_1_1_objective_function.html" title="Abstract Data Type that defines the ObjectiveFuntion component." alt="" coords="203,137,370,193"/>
-<area shape="rect" id="node6" href="$classonion_1_1_parameter_operator.html" title="Abstract Data Type that defines the ParameterOperator component." alt="" coords="197,217,376,259"/>
-<area shape="rect" id="node7" href="$classonion_1_1_perturbation_operator.html" title="Abstract Data Type that defines the Perturbation Operator." alt="" coords="196,283,377,339"/>
-<area shape="rect" id="node8" href="$classonion_1_1_select_operator.html" title="Defines the interface of SelectOperator components." alt="" coords="201,364,372,435"/>
-<area shape="rect" id="node3" href="$classonion_1_1cops_1_1tsp_1_1array_1_1_create_random.html" title=" " alt="" coords="425,5,631,47"/>
+<area shape="rect" id="node1" title="Base class used to provide identification functionalities to concrete implementations of the Onion co..." alt="" coords="5,189,160,215"/>
+<area shape="rect" id="node2" href="$classonion_1_1_create_operator.html" title=" " alt="" coords="213,5,407,47"/>
+<area shape="rect" id="node4" href="$classonion_1_1_create_operator.html" title="Abstract Data Type that defines the CreateOperator component." alt="" coords="227,71,393,112"/>
+<area shape="rect" id="node5" href="$classonion_1_1_objective_function.html" title="Abstract Data Type that defines the ObjectiveFuntion component." alt="" coords="219,137,401,193"/>
+<area shape="rect" id="node6" href="$classonion_1_1_parameter_operator.html" title="Abstract Data Type that defines the ParameterOperator component." alt="" coords="208,217,412,259"/>
+<area shape="rect" id="node7" href="$classonion_1_1_perturbation_operator.html" title="Abstract Data Type that defines the Perturbation Operator." alt="" coords="209,283,411,339"/>
+<area shape="rect" id="node8" href="$classonion_1_1_select_operator.html" title="Defines the interface of SelectOperator components." alt="" coords="215,364,405,435"/>
+<area shape="rect" id="node3" href="$classonion_1_1cops_1_1tsp_1_1array_1_1_create_random.html" title=" " alt="" coords="460,5,688,47"/>
 </map>

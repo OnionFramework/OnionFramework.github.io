@@ -11,7 +11,6 @@ var hierarchy =
       [ "onion::PerturbationOperator< solution_t, perturbation_result_t >", "classonion_1_1_perturbation_operator.html", null ],
       [ "onion::SelectOperator< objective_value_t, objective_function_result_t, compare >", "classonion_1_1_select_operator.html", null ]
     ] ],
-    [ "ComponentIDBuilder", "class_component_i_d_builder.html", null ],
     [ "onion::IDBuilder", "classonion_1_1_i_d_builder.html", null ],
     [ "onion::make_void< Ts >", "structonion_1_1make__void.html", null ],
     [ "onion::NonCopyable", "classonion_1_1_non_copyable.html", [
